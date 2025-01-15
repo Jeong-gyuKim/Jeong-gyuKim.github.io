@@ -17,14 +17,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "르네상스 나무늘보" # "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Jeong-gyuKim" #"Your Name"
+description              : "개발과 배움, 그리고 개인 성장을 중심으로 한 기술 블로그입니다." #"An amazing website."
+url                      : "https://jeong-gyukim.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Jeong-gyuKim/Jeong-gyuKim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -34,9 +34,9 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # jeong-gyukim # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -48,17 +48,17 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    repo_id              : R_kgDONlQErg # Shown during giscus setup at https://giscus.app
+    category_name        : "Ideas" # Full text name of the category
+    category_id          : "DIC_kwDONlQErs4CmBh2" # Shown during giscus setup at https://giscus.app
+    discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
+    theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    strict               : "0" # 1 for enabled, 0 for disabled (default)
+    input_position       : "top" # "top", "bottom" # The comment input box will be placed above or below the comments
+    emit_metadata        : "0" # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
+    lang                 : "ko" # "en" (default)
+    lazy                 : "true" # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
