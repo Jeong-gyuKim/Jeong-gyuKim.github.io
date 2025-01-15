@@ -15,13 +15,13 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko" #"en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "르네상스 나무늘보" # "Site Title"
+title                    : "Renaissance sloth" # "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jeong-gyuKim" #"Your Name"
-description              : "개발과 배움, 그리고 개인 성장을 중심으로 한 기술 블로그입니다." #"An amazing website."
+description              : "A technology blog focused on development, learning, and personal growth." #"An amazing website."
 url                      : "https://jeong-gyukim.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Jeong-gyuKim/Jeong-gyuKim.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -53,7 +53,7 @@ comments:
     category_id          : "DIC_kwDONlQErs4CmBh2" # Shown during giscus setup at https://giscus.app
     discussion_term      : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : "1" # '1' for enabled (default), '0' for disabled
-    theme                : "preferred_color_scheme" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
+    theme                : "light" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
     strict               : "0" # 1 for enabled, 0 for disabled (default)
     input_position       : "top" # "top", "bottom" # The comment input box will be placed above or below the comments
     emit_metadata        : "0" # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
@@ -113,10 +113,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Jeong-gyu Kim"
+  avatar           : "/assets/favicon.ico/android-icon-192x192.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A technology blog focused on development, learning, and personal growth." #"I am an **amazing** person."
+  location         : "Gwangju Institute of Science and Technology"
   email            :
   links:
     - label: "Email"
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/Jeong-gyuKim"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
