@@ -1,7 +1,7 @@
 ---
-layout: single
 title: "First post"
-date: "2025-01-13 22:00:00 +0900"
+lang_ref: first post
+date: "2025-01-04 20:00:00 +0900"
 last_modified_at: "2025-01-14 22:00:00 +0900"
 comments: true
 tags: post
