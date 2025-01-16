@@ -328,11 +328,11 @@ defaults:
       path: "_posts/en"
       type: posts
     values:
-      lang: "en"
+      language: "en"
       permalink: /en/:categories/:title/
   - scope:
       path: "_posts/ko"
       type: posts
     values:
-      lang: "ko"
+      language: "ko"
       permalink: /ko/:categories/:title/

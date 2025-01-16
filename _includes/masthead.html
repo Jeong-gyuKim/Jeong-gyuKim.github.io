@@ -22,6 +22,8 @@
             </li>
           {%- endfor -%}
         </ul>
+        {% include language-switch.html %}
+
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
