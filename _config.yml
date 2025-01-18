@@ -318,13 +318,18 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   blanklines: false
-  profile: true
+  # profile: true
   startings: [html, head, body]
   # ignore:
   #   envs: development
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+    values:
+      language: "en"
+      language-switch: true
   # _posts
   - scope:
       path: ""
@@ -338,7 +343,7 @@ defaults:
       related: true
       show_date: true
       toc: true
-      toc_sticky: true
+      right_sidebar_sticky: true
   - scope:
       path: "_posts/en"
       type: posts
