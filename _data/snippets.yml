@@ -1,7 +1,7 @@
 languages:
   en:
-    value: English
+    value: View in English
     slug: en
   ko:
-    value: 한국어
+    value: 한국어로 보기
     slug: ko

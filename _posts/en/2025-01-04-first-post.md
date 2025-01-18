@@ -1,9 +1,6 @@
 ---
 title: "First post"
-language: en
 language_reference: first-post
-date: "2025-01-04 20:00:00 +0900"
-last_modified_at: "2025-01-14 22:00:00 +0900"
 tags: post
 ---
 

@@ -1,9 +1,6 @@
 ---
-title: "첫 포스트"
-language: ko
+title: "첫번째 포스트"
 language_reference: first-post
-date: "2025-01-04 20:00:00 +0900"
-last_modified_at: "2025-01-04 20:00:00 +0900"
 tags: 포스트
 ---
 
