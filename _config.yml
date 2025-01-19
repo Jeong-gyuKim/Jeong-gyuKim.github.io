@@ -329,7 +329,6 @@ defaults:
       path: ""
     values:
       language: "en"
-      language_switch: true
       author_profile: true
   # _posts
   - scope:
@@ -337,6 +336,7 @@ defaults:
       type: posts
     values:
       layout: single
+      language_switch: true
       read_time: true
       comments: true
       share: true
