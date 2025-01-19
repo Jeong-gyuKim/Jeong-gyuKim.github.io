@@ -1,8 +1,8 @@
 {% if paginator.total_pages > 1 %}
 
+{% assign posts=site.posts | where:"language", page.language %}
 {% assign page = paginator.page %}
 {% assign per_page = paginator.per_page %}
-{% assign posts=site.posts | where:"language", language %}
 {% assign total_posts = posts.size %}
 {% if per_page > 0 %}
   {% assign total_pages = total_posts | divided_by: per_page | plus: 1 %}

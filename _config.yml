@@ -322,6 +322,7 @@ defaults:
       language: "en"
       author_profile: true
       language_switch: true
+      toc_sticky: true
   # _posts
   - scope:
       path: ""
