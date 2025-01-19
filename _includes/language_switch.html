@@ -1,9 +1,9 @@
-<!-- <ul> -->
+<ul>
     {% for language in site.data.snippets.languages %}
         {% unless language[1].slug == page.language %}
-            <!-- <li> -->
+            <li>
                 <a href="{{ site.baseurl }}/{{ language[1].slug }}/{{ page.language_reference }}">{{ language[1].value }}</a>
-            <!-- </li> -->
+            </li>
         {% endunless %}
         
         <!-- <li {% if language[1].slug == page.language %}class="current"{% endif %}>
@@ -11,5 +11,5 @@
         </li>  -->
        
     {% endfor %}
-<!-- </ul> -->
+</ul>
   

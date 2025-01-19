@@ -345,14 +345,14 @@ defaults:
       toc: true
       toc_sticky: true
   - scope:
-      path: "_posts/en"
+      path: "en/_posts"
       type: posts
     values:
       language: "en"
-      permalink: /en/:categories/:title/
+      # permalink: /en/:categories/:title/
   - scope:
-      path: "_posts/ko"
+      path: "ko/_posts"
       type: posts
     values:
       language: "ko"
-      permalink: /ko/:categories/:title/
+      # permalink: /ko/:categories/:title/
