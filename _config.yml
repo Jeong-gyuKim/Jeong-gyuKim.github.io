@@ -329,21 +329,21 @@ defaults:
       path: ""
     values:
       language: "en"
-      language-switch: true
+      language_switch: true
+      author_profile: true
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
       toc: true
-      right_sidebar_sticky: true
+      toc_sticky: true
   - scope:
       path: "_posts/en"
       type: posts
