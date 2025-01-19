@@ -20,12 +20,6 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Renaissance sloth" # "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-display_title            : 
-  en                     : "Renaissance sloth"
-  ko                     : "르네상스 나무늘보"
-display_subtitle         : 
-  en                     : "A technology blog focused on development, learning, and personal growth"
-  ko                     : "개발, 학습, 그리고 개인 성장에 초점을 맞춘 기술 블로그"
 name                     : "Jeong-gyuKim" #"Your Name"
 description              : "A technology blog focused on development, learning, and personal growth." #"An amazing website."
 url                      : "https://jeong-gyukim.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -120,12 +114,9 @@ analytics:
 # Site Author
 author:
   name             : "Jeong-gyu Kim"
-  avatar           : "/assets/favicon.ico/android-icon-192x192.png" #/assets/favicon.ico/android-icon-192x192.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/favicon.ico/android-icon-192x192.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a student at Gwangju Institute of Science and Technology."
-  display-bio      : 
-    en             : "I am a student at Gwangju Institute of Science and Technology."
-    ko             : "광주과학기술원 학생입니다."
-  location         : "Gwangju Institute of Science and Technology"
+  location         : "Gwangju, South Korea"
   email            : "jeonggyukim@gm.gist.ac.kr"
   links:
     - label: "Email"
