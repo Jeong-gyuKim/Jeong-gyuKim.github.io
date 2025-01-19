@@ -321,13 +321,13 @@ defaults:
     values:
       language: "en"
       author_profile: true
+      language_switch: true
   # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      language_switch: true
       read_time: true
       comments: true
       share: true
@@ -336,14 +336,6 @@ defaults:
       toc: true
       toc_sticky: true
   - scope:
-      path: "en/_posts"
-      type: posts
-    values:
-      language: "en"
-      # permalink: /en/:categories/:title/
-  - scope:
-      path: "ko/_posts"
-      type: posts
+      path: "ko"
     values:
       language: "ko"
-      # permalink: /ko/:categories/:title/
