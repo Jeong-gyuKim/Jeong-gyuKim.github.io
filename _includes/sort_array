@@ -1,0 +1,20 @@
+{%- assign array=include.array -%}
+{%- assign score=include.score | default: array -%}
+{%- assign memory="" | split: "," -%}
+{%- assign sorted_array="" | split: "," -%}
+
+{%- if array.size == score.size -%}
+  {%- for i in (0..array.size) limit: array.size -%}
+    {%- assign maxIndex = i -%}
+    {%- for j in (0..array.size) limit: array.size -%}
+      {%- unless memory contains j -%}
+        {% assign diff = score[j] | minus: score[maxIndex] %}
+        {%- if diff > 0 -%}
+          {%- assign maxIndex = j -%}
+        {%- endif -%}
+      {%- endunless -%}
+    {%- endfor -%}
+    {%- assign memory=memory | push: maxIndex -%}
+    {%- assign sorted_array=sorted_array | push: array[maxIndex] -%}
+  {%- endfor -%}
+{%- endif -%}

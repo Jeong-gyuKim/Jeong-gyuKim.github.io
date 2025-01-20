@@ -1,0 +1,27 @@
+{% assign related_posts="" | split:"," %}
+{% assign posts="" | split:"," %}
+{% assign score="" | split:"," %}
+
+{% assign site_posts=site.posts | where: "language", page.language %}
+
+{% for post in site_posts %}
+    {% if post.url != page.url %}
+        {% assign commonCount = 0 %}
+        {% for category in post.categories %}
+            {% if page.categories contains category %}
+                {% assign commonCount = commonCount | plus: 1 %}
+            {% endif %}
+        {% endfor %}
+        {% for tag in post.tags %}
+            {% if page.tags contains tag %}
+                {% assign commonCount = commonCount | plus: 1 %}
+            {% endif %}
+        {% endfor %}
+        {% assign posts=posts | push: post %}
+        {% assign score=score | push: commonCount %}
+    {% endif %}
+{% endfor %}
+
+{% include sort_array array=posts score=score %}
+
+{% assign related_posts=sorted_array %}
