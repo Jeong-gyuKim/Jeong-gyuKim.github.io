@@ -83,8 +83,8 @@ google:
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification : pE25ZgmBIuBBjK_qPKRI8i-_O8YuaYaxQgF_c1kF40o
-bing_site_verification   :
-naver_site_verification  :
+bing_site_verification   : A841B21D316B5749CCE1225C1A34CE4A
+naver_site_verification  : 22efc7b613e6ec807f566abf7ed3471550b2065a
 yandex_site_verification :
 baidu_site_verification  :
 
