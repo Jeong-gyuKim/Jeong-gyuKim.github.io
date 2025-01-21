@@ -1,9 +1,0 @@
-{%- include array/range start=4 -%}
-{%- assign array=return -%}
-
-{%- include array/init arr="5,3,1,4,2" -%}
-{%- assign score=return -%}
-
-{%- include array/insertion_sort arr=array score=score -%}
-
-{%- include array/print arr=return -%}
