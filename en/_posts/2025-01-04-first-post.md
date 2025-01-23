@@ -1,6 +1,8 @@
 ---
 title: "First post"
 tags: post
+header:
+  teaser: 
 ---
 
 I'm writing the first post.
