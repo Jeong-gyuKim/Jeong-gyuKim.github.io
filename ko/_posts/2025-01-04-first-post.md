@@ -1,6 +1,5 @@
 ---
 title: "첫번째 포스트"
-language_reference: first-post
 tags: 포스트
 ---
 

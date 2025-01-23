@@ -1,6 +1,5 @@
 ---
 title: "First post"
-language_reference: first-post
 tags: post
 ---
 
