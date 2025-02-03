@@ -6,7 +6,7 @@
 {% endcase %}
 
 {% if site.category_archive.path %}
-  {% include corrected_categories categories=page.categories %}
+  {% include corrected_page_categories categories=page.categories %}
   {% if corrected_categories.size > 0 %}
     {% assign categories_sorted = corrected_categories | sort_natural %}
 
