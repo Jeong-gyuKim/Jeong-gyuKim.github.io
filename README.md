@@ -1,1 +1,0 @@
-# Jeong-gyuKim.github.io
